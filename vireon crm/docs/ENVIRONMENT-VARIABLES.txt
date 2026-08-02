@@ -1,0 +1,27 @@
+VIREON LEAD HUB — NETLIFY ENVIRONMENT VARIABLES
+
+Required:
+
+SUPABASE_URL
+  Supabase project URL.
+
+SUPABASE_PUBLISHABLE_KEY
+  Browser-safe Supabase publishable key.
+
+SUPABASE_SECRET_KEY
+  Server-only modern Supabase secret key. Preferred.
+
+GOOGLE_SHEETS_WEB_APP_URL
+  Google Apps Script Web App URL ending in /exec.
+
+GOOGLE_SHEETS_SHARED_SECRET
+  A random 64-character hex value. Must exactly match the Apps Script
+  VIREON_SHARED_SECRET property.
+
+Legacy alternative only:
+
+SUPABASE_SERVICE_ROLE_KEY
+  Old service_role JWT. Use only when a modern SUPABASE_SECRET_KEY is unavailable.
+  Do not set both during normal setup.
+
+Never commit any real value from this list to GitHub.

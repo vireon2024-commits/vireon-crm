@@ -1,0 +1,13 @@
+{
+  "name": "Vireon Lead Hub",
+  "short_name": "Vireon CRM",
+  "description": "Secure lead, client, delivery and follow-up management for Vireon.",
+  "start_url": "/#/dashboard",
+  "display": "standalone",
+  "background_color": "#F5F3EF",
+  "theme_color": "#0B0B0B",
+  "icons": [
+    {"src":"/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
